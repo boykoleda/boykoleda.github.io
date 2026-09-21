@@ -4,3 +4,8 @@
 .departure-photo figure>a{width:calc(100% - 28px);max-width:none;margin:14px 14px 0}.departure-photo figure>a img{width:100%;height:auto;object-fit:contain}
 
 @media(min-width:768px){.departure-photo figure>a{width:min(100%,240px);margin:14px auto 0}.departure-photo figure>a img{height:160px;object-fit:cover;object-position:50% 70%}}
+
+/* Show complete destination photos without fixed-height cropping. */
+.product-page .highlights-grid{align-items:start}
+.product-page .highlight-card{height:auto!important;aspect-ratio:auto!important}
+.product-page .highlight-card>img{display:block;width:100%;height:auto!important;aspect-ratio:auto!important;object-fit:contain}
